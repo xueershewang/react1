@@ -1,0 +1,78 @@
+﻿路由规划
+/
+    /login
+    /main
+        /homepage
+        /competitions
+        /operatelog
+        /training
+        /publish
+        /review
+        /usermanager
+
+
+==================环境和运行项目命令=====================
+Note: nodejs最低版本5.0,Ruby2.7
+安装依赖
+` npm install    =========引入开发需要的包
+项目命令
+>
+先执行：npm run dll  ====引入打包
+开发模式: npm start ============启动项目命令
+生产模式: npm run build =====打包命令----会在项目的根目录生成一个dist文件夹----直接放在tomcate的webapps下，启动tomcate即可：http://127.0.0.1:8080/dist/index.html
+### mac上项目命令
+> 
+先执行：`npm run dll`
+> 
+开发模式:`npm run start-mac`
+>
+ 生产模式:`npm run build-mac`
+
+===========================================================
+文件执行过程----server.js----index.js-----app.js----router.js-----Main.js
+
+===========================================================
+路由的作用：能快速的添加页面和页面上的数，同时保持页面和url的同步
+
+
+============================================================
+propes的作用
+定义一个类Testa，这个Testa类在react中就是一个组件，react中每个类中都有propes这个属性，
+ 在类中可以通过  this.propes.title来获取propes中的title这个属性对应的值
+
+在Testb类里引用Testa，
+  在Testb类最上面引入   import Testa from '../Testa.js';
+  在return内引入 <Testa title="测试" />  
+
+说明：这样引入对于Testb来说，效果是把TestA整个引入到了Testb里
+  Testb通过<Testa title="测试" />这种方式引入Testa的同时，将title通过属性方式传入到Testa里的peopes里，在Testa里就可以通过 this.propes.title来获取title这个属性对应的值
+
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

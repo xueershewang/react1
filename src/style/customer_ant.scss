@@ -1,0 +1,47 @@
+.ant-table-wrapper {
+    height: 100%;
+  }
+  
+  .ant-table {
+    height: 92%;
+  }
+  
+  .ant-spin-nested-loading {
+    height: 100%;
+  }
+  
+  .ant-table-content {
+    height: 100%;
+  }
+  
+  .ant-spin-container {
+    height: 100%;
+  }
+  
+  .ant-table-body {
+    height: 100%;
+    overflow-y: auto!important;
+  }
+  
+  .ant-table table {
+    height: 100%;
+  }
+  
+  .ant-table-tbody > tr, .ant-table-tbody > tr > td, .ant-table-thead > tr {
+    vertical-align: middle;
+  }
+  
+  .ant-table-tbody > tr > td {
+    border-bottom: none;
+  }
+  
+  .ant-table-small .ant-table-thead > tr > th {
+    border-bottom: none;
+  }
+  
+  .ant-table-header{
+    margin-bottom: 0px!important;
+  }
+  .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    overflow: auto;
+  }

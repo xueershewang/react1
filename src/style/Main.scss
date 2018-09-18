@@ -1,0 +1,105 @@
+.main {
+  width: 100%;
+  height: 100%;
+  min-width: 1000px!important;
+  min-height: 500px!important;
+
+  .ant-layout {
+    background: #e2e6e9 !important;
+    .ant-layout-content {
+      margin: 20px !important;
+      padding:0!important;
+    }
+    .ant-layout-header {
+      height: 50px;
+    }
+  }
+  .ant-layout-sider {
+    background-color: #323232 !important;
+  }
+  .ant-menu.ant-menu-dark {
+    background-color: #323232 !important;
+    padding: 0 12px !important;
+    .ant-menu-item-selected {
+      border-radius: 15px !important;
+      background: #202020 !important;
+    }
+    .ant-menu-item-selected:hover {
+      border-radius: 15px !important;
+      background: #202020 !important;
+    }
+    .ant-menu-item {
+      height: 32px;
+      line-height: 32px;
+      padding-left: 12px !important;
+      margin: 12px 0;
+    }
+  }
+
+  .trigger {
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  .trigger:hover {
+    color: #108ee9;
+  }
+  .logo {
+    height: 50px;
+    background: #202020;
+    position: relative;
+    .Img {
+      height: 50px;
+      width: 29px;
+      margin-left: 14px;
+
+    }
+    .logo_name {
+      display: block;
+      width: 120px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 17px;
+      color: #368cf4;
+      position: absolute;
+      top: 0;
+      left: 45px;
+    }
+  }
+  .HeaderClass {
+    display: flex;
+    background: #fff;
+    padding: 0;
+    line-height: 50px;
+    color:#acb4bb;
+    .HeaderClass-left{
+      width:52px;
+      border-right:1px solid #e2e6e9;
+    }
+    .HeaderClass-middle{
+      width:calc(100% - 254px);
+      padding-left:10px
+    }
+    .HeaderClass-username{
+      width:150px;
+      padding-right:10px;
+      text-align:right;
+      color:#000;
+    }
+    .HeaderClass-right{
+      width:52px;
+      border-left:1px solid #e2e6e9;
+    }
+  }
+}
+.ant-tooltip-placement-right{
+  padding-left: 33px!important;
+  .ant-tooltip-arrow{
+    left:28px!important;
+  }
+}
+.ant-menu-item:hover{
+  border-radius: 15px !important;
+}
